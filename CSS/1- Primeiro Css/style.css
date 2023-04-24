@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+h1 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: yellow;
+  /*border: 2px solid yellow*/   /* Shorthand (atalho ou resumo do codigo)*/
+  
+  color:white;
+  background-color: rgba(0, 0, 0, 0.317);
+}
+
+body {
+  background-image: url('https://s.yimg.com/ny/api/res/1.2/IaWxJGNP2pFMhb_KmN2zUw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MA--/https://media.zenfs.com/en/space_311/a2fbaf3bf5f5ec9695eafe13efb1057c');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+  
+.moon {
+  color: yellow
+}
+
+#main-moon {
+  color: blue;
+  font-weight: bold;
+}
+
+li {
+  color: green;
+}

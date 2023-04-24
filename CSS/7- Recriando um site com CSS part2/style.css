@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body > div {
+  background-color: #fffafa;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+
+.data{ 
+ color: #008080; 
+ font-weight: bold;
+ font-family: 'Roboto', sans-serif;
+}
+
+.post {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#main-box {
+  margin: 0px auto 2px auto;
+  padding: 10px 30px 10px 30px ;
+  width: 70%;
+}

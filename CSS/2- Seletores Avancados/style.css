@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+li > a {
+  color: red;
+}
+
+a[href='/recibo'] {
+  color:green;
+}
+
+li:nth-of-type(2) {
+  color: purple;
+}
