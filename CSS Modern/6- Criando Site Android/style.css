@@ -27,9 +27,13 @@
 }
 
 header {
+  
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 10px 25px;
+}
+
+header > h1 {
+
+  text-align: center;
 }
