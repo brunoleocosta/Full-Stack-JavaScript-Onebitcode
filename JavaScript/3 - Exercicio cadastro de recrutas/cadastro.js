@@ -4,8 +4,8 @@ const campoDeEstudo = prompt ("Qual é o seu campo de estudo?")
 const anoDeNascimento = prompt ("Qual o seu ano de nascimento?")
 
 alert (
-  "Recruta cadastrado com Sucesso!" +
-  "Nome completo:" + primeiroNome + " " + sobrenome +
-  "campoDeEstudo:" + campoDeEstudo
-  "Idade:" + (2023-anoDeNascimento)
+  "Recruta cadastrado com Sucesso!\n" +
+  "\nNome completo: " + primeiroNome + " " + sobrenome +
+  "\ncampo de estudo: " + campoDeEstudo +
+  "\nIdade: " + (2023-anoDeNascimento)
 )
