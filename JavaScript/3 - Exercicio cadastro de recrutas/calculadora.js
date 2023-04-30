@@ -7,7 +7,7 @@ const multiplicacao = x*y
 const divisao = x/y
 
 alert (
-  "O resultado da soma entre esses numeros é:\n"+
+  "Resultados:\n" +
   "\n Soma: " + soma +
   "\n Subtracao: " + subtracao +
   "\n multiplicacao: " + multiplicacao +
