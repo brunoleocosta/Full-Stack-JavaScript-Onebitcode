@@ -9,6 +9,8 @@ const shield2 = Number(prompt("Se tiver escudo, digite o valor, senão considere
 const damage1 = atk1-def2
 const damage2 = atk1-def2-shield2
 
+const newlife = shield2 > damage1 ? life2 - damage2 : life2 - damage1;
+
 
 if (atk1 > def2 && shield2 === 0) {
     alert ("O dano foi de: " + damage1);
@@ -19,3 +21,6 @@ else if (atk1 > def2 && shield2 !== 0) {
 else if (atk1 < def2 ) {
     alert ("O dano foi de: 0");
 }
+
+
+
