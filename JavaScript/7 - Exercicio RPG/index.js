@@ -23,4 +23,4 @@ else if (atk1 < def2 ) {
 }
 
 
-
+alert: ("é mais rápido que ;
